@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="Portfolio of Chu Thanh Duy - Software Engineering Student specializing in Java, Web Development, and System Analysis.">
+  <title>Chu Thanh Duy | Software Engineer Portfolio</title>
+
+  <!-- Google Fonts & FontAwesome -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+  <!-- Navigation -->
+  <header class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#home" class="nav-logo">
+        Duy Chu
+      </a>
+
+      <nav class="nav-menu" id="nav-menu">
+        <ul class="nav-list">
+          <li><a href="#home" class="nav-link active">Home</a></li>
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#skills" class="nav-link">Skills</a></li>
+          <li><a href="#projects" class="nav-link">Projects</a></li>
+          <li><a href="#experience" class="nav-link">Activities</a></li>
+          <li><a href="#education" class="nav-link">Education</a></li>
+          <li><a href="#certifications" class="nav-link">Certifications</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <button class="hamburger" id="hamburger" aria-label="Toggle Navigation Menu">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero / Home Section -->
+    <section id="home" class="hero-section">
+      <div class="container hero-container">
+        <div class="hero-content reveal">
+          <div class="badge">
+            <span class="pulse-dot"></span> Open for Internship Opportunities
+          </div>
+          <h1 class="hero-title">
+            Hi, I'm <span class="highlight">Chu Thanh Duy</span>
+          </h1>
+          <h2 class="hero-subtitle">Software Engineering Student</h2>
+          <p class="hero-description">
+            Building reliable Java & Full-Stack web systems with solid Object-Oriented Principles, clean SQL databases,
+            and structured system documentation.
+          </p>
+
+          <div class="hero-cta">
+            <a href="#projects" class="btn btn-primary">
+              View My Work <i class="fa-solid fa-arrow-right"></i>
+            </a>
+            <a href="#contact" class="btn btn-secondary">
+              Get In Touch
+            </a>
+          </div>
+
+          <div class="hero-quick-info">
+            <div class="info-pill"><i class="fa-solid fa-location-dot"></i> Thach That, Ha Noi</div>
+            <div class="info-pill"><i class="fa-solid fa-graduation-cap"></i> FPT University</div>
+            <div class="info-pill"><i class="fa-solid fa-language"></i> IELTS 7.5</div>
+          </div>
+        </div>
+
+        <div class="hero-image-wrapper reveal">
+          <div class="image-frame">
+            <img src="images/profile.png" alt="Chu Thanh Duy - Software Engineer Student" class="profile-img"
+              id="profile-image">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Me Section -->
+    <section id="about" class="section">
+      <div class="container">
+        <div class="section-header reveal">
+          <h2 class="section-title">About Me</h2>
+        </div>
+
+        <div class="about-grid">
+          <div class="about-card card reveal">
+            <div class="card-icon"><i class="fa-solid fa-code"></i></div>
+            <h3>Software Development Focus</h3>
+            <p>
+              I am currently pursuing my Software Engineering degree at FPT University. My primary technical foundation
+              lies in <strong>Java</strong>, Object-Oriented Design, and Full-stack web architectures using JSP/Servlet
+              & SQL Server.
+            </p>
+          </div>
+
+          <div class="about-card card reveal">
+            <div class="card-icon"><i class="fa-solid fa-diagram-project"></i></div>
+            <h3>System Analysis & Design</h3>
+            <p>
+              Beyond coding, I enjoy structuring clear software requirements (SRS) and architecture (SDD). I create use
+              case diagrams, sequence diagrams, and database designs to turn complex business needs into clean code.
+            </p>
+          </div>
+
+          <div class="about-card card reveal">
+            <div class="card-icon"><i class="fa-solid fa-users"></i></div>
+            <h3>Teamwork & Community</h3>
+            <p>
+              Collaborating on GitLab with team members and organizing student initiatives has strengthened my
+              communication, problem-solving, and adaptability in fast-paced collaborative environments.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section bg-alt">
+      <div class="container">
+        <div class="section-header reveal">
+          <h2 class="section-title">Skills & Knowledge</h2>
+        </div>
+
+        <div class="skills-grid">
+          <div class="skill-category card reveal">
+            <div class="category-header">
+              <i class="fa-brands fa-java category-icon"></i>
+              <h3>Programming Languages</h3>
+            </div>
+            <div class="tag-cloud">
+              <span class="skill-tag primary-tag">Java (Core & OOP)</span>
+            </div>
+          </div>
+
+          <div class="skill-category card reveal">
+            <div class="category-header">
+              <i class="fa-solid fa-laptop-code category-icon"></i>
+              <h3>Frontend & Web Technologies</h3>
+            </div>
+            <div class="tag-cloud">
+              <span class="skill-tag">HTML5</span>
+              <span class="skill-tag">CSS3</span>
+              <span class="skill-tag">JavaScript</span>
+              <span class="skill-tag">JSP / Servlet</span>
+            </div>
+          </div>
+
+          <div class="skill-category card reveal">
+            <div class="category-header">
+              <i class="fa-solid fa-database category-icon"></i>
+              <h3>Database & Storage</h3>
+            </div>
+            <div class="tag-cloud">
+              <span class="skill-tag">SQL Server</span>
+              <span class="skill-tag">Relational DB Design</span>
+            </div>
+          </div>
+
+          <div class="skill-category card reveal">
+            <div class="category-header">
+              <i class="fa-solid fa-screwdriver-wrench category-icon"></i>
+              <h3>Development Tools</h3>
+            </div>
+            <div class="tag-cloud">
+              <span class="skill-tag">Git</span>
+              <span class="skill-tag">GitHub</span>
+              <span class="skill-tag">GitLab</span>
+            </div>
+          </div>
+
+          <div class="skill-category card reveal">
+            <div class="category-header">
+              <i class="fa-solid fa-language category-icon"></i>
+              <h3>Languages</h3>
+            </div>
+            <div class="tag-cloud">
+              <span class="skill-tag">Vietnamese (Native)</span>
+              <span class="skill-tag">English (Upper-Intermediate)</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+      <div class="container">
+        <div class="section-header reveal">
+          <h2 class="section-title">Featured Projects</h2>
+          <p class="section-description">Real-world web applications and projects built during my software engineering
+            studies.</p>
+        </div>
+
+        <div class="projects-grid">
+
+          <!-- Featured Project: Dry Goods Warehouse System -->
+          <article class="project-card featured-project reveal" data-category="software web"
+            data-project-id="dry-goods">
+            <div class="project-badge">Featured & Recently</div>
+            <div class="project-content">
+              <div class="project-header">
+                <span class="project-date">May 2026 - July 2026</span>
+                <h3 class="project-title">Dry Goods Warehouse System</h3>
+                <span class="project-role">Full-Stack Developer</span>
+              </div>
+              <p class="project-summary">
+                Comprehensive warehouse management web system engineered to handle inventory tracking, import/export
+                operations, transactions, and role-based access control.
+              </p>
+              <div class="project-tech">
+                <span>Java</span>
+                <span>JSP/Servlet</span>
+                <span>SQL Server</span>
+                <span>HTML/CSS</span>
+                <span>JavaScript</span>
+                <span>GitLab</span>
+              </div>
+              <div class="project-actions">
+                <button class="btn btn-small btn-primary open-modal-btn" data-project="dry-goods">
+                  View Case Study <i class="fa-solid fa-up-right-from-square"></i>
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project: Laptop Selling Website -->
+          <article class="project-card reveal" data-category="software web" data-project-id="laptop-store">
+            <div class="project-content">
+              <div class="project-header">
+                <span class="project-date">Jan 2026 - Apr 2026</span>
+                <h3 class="project-title">Laptop Selling E-Commerce Website</h3>
+                <span class="project-role">Full-Stack Developer</span>
+              </div>
+              <p class="project-summary">
+                E-commerce platform featuring dual Customer and Admin roles, custom shopping cart logic, order
+                fulfillment lifecycle, and full admin CRUD management.
+              </p>
+              <div class="project-tech">
+                <span>Java</span>
+                <span>JSP/Servlet</span>
+                <span>SQL Server</span>
+                <span>HTML/CSS</span>
+                <span>JavaScript</span>
+              </div>
+              <div class="project-actions">
+                <button class="btn btn-small btn-secondary open-modal-btn" data-project="laptop-store">
+                  View Details <i class="fa-solid fa-circle-info"></i>
+                </button>
+              </div>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Experience & Extracurricular Section -->
+    <section id="experience" class="section bg-alt">
+      <div class="container">
+        <div class="section-header reveal">
+          <h2 class="section-title">Extracurricular Activities</h2>
+        </div>
+
+        <div class="timeline">
+          <div class="timeline-item reveal">
+            <div class="timeline-marker">
+              <i class="fa-solid fa-heart-pulse"></i>
+            </div>
+            <div class="timeline-content card">
+              <div class="timeline-header">
+                <h3>Project "Khi Stress Khong Len Tieng"</h3>
+                <span class="timeline-date">Jan 2026 - April 2026</span>
+              </div>
+              <span class="timeline-role">Media Team Member | Student Mental Health Support Initiative</span>
+              <ul class="timeline-bullets">
+                <li>Organized university-wide mental health initiatives, co-executing the <strong>"Tram Gui
+                    Gam"</strong> campaign and <strong>"Reset: Trio of Joy"</strong> workshop to support student
+                  well-being.</li>
+                <li>Developed multi-channel media content and coordinated event logistics, ensuring seamless on-site
+                  operations and engaging <strong>70+ student participants</strong>.</li>
+                <li>Fostered a supportive environment that encouraged student engagement, successfully reducing academic
+                  stress through interactive sharing activities.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="section">
+      <div class="container">
+        <div class="section-header reveal">
+          <h2 class="section-title">Education</h2>
+        </div>
+
+        <div class="education-card card reveal">
+          <div class="edu-logo-wrapper">
+            <i class="fa-solid fa-building-columns edu-icon"></i>
+          </div>
+          <div class="edu-details">
+            <div class="edu-header">
+              <h3>FPT University</h3>
+              <span class="edu-date">Sept 2024 - Present</span>
+            </div>
+            <p class="edu-degree">Major in Software Engineering</p>
+            <div class="edu-highlights">
+              <div class="stat-badge">
+                <span class="stat-label">Current GPA:</span>
+                <span class="stat-value">3.2 / 4.0</span>
+              </div>
+              <div class="stat-badge highlight-badge">
+                <i class="fa-solid fa-award"></i> Awarded 100% Scholarship for outstanding performance during High
+                School
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section id="certifications" class="section bg-alt">
+      <div class="container">
+        <div class="section-header reveal">
+          <h2 class="section-title">Certifications</h2>
+        </div>
+
+        <div class="cert-grid">
+
+          <div class="cert-card card reveal">
+            <div class="cert-icon"><i class="fa-solid fa-certificate"></i></div>
+            <div class="cert-info">
+              <h3>IELTS Academic 7.5</h3>
+              <p class="cert-issuer">International English Language Testing System</p>
+              <span class="cert-year">Issued 2023</span>
+            </div>
+          </div>
+
+          <div class="cert-card card reveal">
+            <div class="cert-icon"><i class="fa-solid fa-graduation-cap"></i></div>
+            <div class="cert-info">
+              <h3>Software Engineering: Modeling Software Systems using UML</h3>
+              <p class="cert-issuer">Coursera</p>
+              <span class="cert-year">Issued 2026</span>
+            </div>
+          </div>
+
+          <div class="cert-card card reveal">
+            <div class="cert-icon"><i class="fa-solid fa-vial-circle-check"></i></div>
+            <div class="cert-info">
+              <h3>Software Engineering: Implementation and Testing</h3>
+              <p class="cert-issuer">Coursera</p>
+              <span class="cert-year">Issued 2026</span>
+            </div>
+          </div>
+
+          <div class="cert-card card reveal">
+            <div class="cert-icon"><i class="fa-solid fa-list-check"></i></div>
+            <div class="cert-info">
+              <h3>Software Engineering: Software Design and Project Management</h3>
+              <p class="cert-issuer">Coursera</p>
+              <span class="cert-year">Issued 2026</span>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+      <div class="container">
+        <div class="section-header reveal">
+          <h2 class="section-title">Contact Me</h2>
+          <p class="section-description">I am actively looking for Software Engineering Internship opportunities. Feel
+            free to reach out!</p>
+        </div>
+
+        <div class="contact-grid-clean reveal">
+          <div class="contact-item card">
+            <div class="contact-icon"><i class="fa-solid fa-envelope"></i></div>
+            <div>
+              <h4>Email</h4>
+              chuthanhduy06@gmail.com
+            </div>
+          </div>
+
+          <div class="contact-item card">
+            <div class="contact-icon"><i class="fa-solid fa-phone"></i></div>
+            <div>
+              <h4>Phone</h4>
+              (+84) 373 690 906
+            </div>
+          </div>
+
+          <div class="contact-item card">
+            <div class="contact-icon"><i class="fa-solid fa-location-dot"></i></div>
+            <div>
+              <h4>Location</h4>
+              <p>Thach That, Ha Noi, Vietnam</p>
+            </div>
+          </div>
+
+          <div class="contact-item card">
+            <div class="contact-icon"><i class="fa-brands fa-github"></i></div>
+            <div>
+              <h4>GitHub</h4>
+              <a href="https://github.com/duycthe200061" target="_blank" rel="noopener noreferrer">github.com/duycthe200061</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-container">
+      <p>&copy; <span id="year"></span> Chu Thanh Duy. Built with HTML, CSS, & JavaScript.</p>
+      <a href="#home" class="back-to-top" aria-label="Back to Top">
+        <i class="fa-solid fa-arrow-up"></i>
+      </a>
+    </div>
+  </footer>
+
+  <!-- Project Detail Modal -->
+  <div class="modal" id="project-modal" aria-hidden="true" role="dialog" aria-labelledby="modal-title">
+    <div class="modal-overlay" tabindex="-1" data-close-modal></div>
+    <div class="modal-container">
+      <button class="modal-close" aria-label="Close Modal" data-close-modal>&times;</button>
+      <div class="modal-body" id="modal-content">
+        <!-- Dynamic Content Injected via JS -->
+      </div>
+    </div>
+  </div>
+
+  <!-- JavaScript -->
+  <script src="script.js"></script>
+</body>
+
+</html>
